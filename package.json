@@ -1,0 +1,13 @@
+{
+  "name": "codex-reset-evidence",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate.mjs",
+    "check:source": "node scripts/generate.mjs --check",
+    "verify": "node scripts/verify.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

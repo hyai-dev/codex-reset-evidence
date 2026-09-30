@@ -1,0 +1,86 @@
+{
+  "source_url": "https://whenresets.com/api/v1/archive?snapshot_id=wr-668dc4b04c0ef700a55c3f8693d603ffe15af7b81bc04cb3fb865037f5f3a822",
+  "meta": {
+    "api_version": "v1",
+    "schema_version": "archive-v1",
+    "snapshot_id": "wr-668dc4b04c0ef700a55c3f8693d603ffe15af7b81bc04cb3fb865037f5f3a822",
+    "generated_at": "2026-09-30T17:55:15Z",
+    "timezone": "UTC"
+  },
+  "attribution": {
+    "publisher": "WhenResets",
+    "snapshot_url": "https://whenresets.com/api/v1/archive?snapshot_id=wr-668dc4b04c0ef700a55c3f8693d603ffe15af7b81bc04cb3fb865037f5f3a822",
+    "scope": "Archived public Codex announcement/action records. Imported classifications are not independently verified global resets.",
+    "limitations": [
+      "Historical collection may have gaps; early upstream revisions cannot be reconstructed.",
+      "Announcement timestamps are source-reported, not proven effective reset times.",
+      "Multiple actions can share one announcement; mixed legacy intervals are not a global reset cadence.",
+      "Transport success does not prove complete coverage. Mirror timeline windows may differ.",
+      "Short source excerpts are provided for attribution and review, not relicensed."
+    ]
+  },
+  "license": {
+    "id": "LicenseRef-WhenResets-Metadata-Attribution",
+    "metadata_terms": "WhenResets-authored metadata, classifications and corrections may be reused with attribution to WhenResets, the snapshot URL and schema version.",
+    "required_attribution": [
+      "WhenResets",
+      "snapshot URL",
+      "schema version"
+    ],
+    "excluded": "Original announcements, posts and quoted excerpts remain copyrighted by their respective authors. This permission does not license third-party text; follow the original sources' terms."
+  },
+  "summary": {
+    "total_events": 76,
+    "active_events": 67,
+    "announcement_count": 79,
+    "completed_source_records": 63
+  },
+  "type_counts": {
+    "needs_review": 10,
+    "verified_global": 0
+  },
+  "coverage": {
+    "state": "partial",
+    "checked_at": null,
+    "source_status_entries": 7
+  },
+  "excluded_source_fields": [
+    "events[].text",
+    "events[].evidence",
+    "events[].classification_reason",
+    "announcements[].text",
+    "revisions[].reason",
+    "revisions[].before",
+    "revisions[].after"
+  ],
+  "files": {
+    "events.json": {
+      "rows": 76,
+      "sha256": "ebdeb7796ef825958f4d051469cc7c72431495d5e901784ff215aa2046e6c502"
+    },
+    "events.csv": {
+      "rows": 76,
+      "sha256": "0f286cef42c84c20d4980391e6077f55c211bd3891e4ce013f5d211777bd8ebc"
+    },
+    "announcements.json": {
+      "rows": 79,
+      "sha256": "57be5d5eb2abe9ddba670aa52e7271dad58ec09c6a67ca9368cbe076d618741f"
+    },
+    "announcements.csv": {
+      "rows": 79,
+      "sha256": "385972b56cc93d951c4f6a04a62eaf6f28e25c8e2aff37c1c711e9d086415c7d"
+    },
+    "revisions.json": {
+      "rows": 8894,
+      "sha256": "c0fe5bf87a4dfbdcf4bd35c18a3a0279ef0856386076dee1065cff7c1f1af83c"
+    },
+    "revisions.csv": {
+      "rows": 8894,
+      "sha256": "40773962cf8652c2f5c8d0be3412ea3eb95f95f69145aac60b616ed759a782b0"
+    },
+    "coverage.json": {
+      "rows": 7,
+      "sha256": "bea37cbeaff5cbfb20a9c22d6615e81aaa1d5045c19b5f88cc72c295a7624fa6"
+    }
+  }
+}

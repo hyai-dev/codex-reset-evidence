@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "api_version": "v1",
+    "schema_version": "archive-v1",
+    "snapshot_id": "wr-668dc4b04c0ef700a55c3f8693d603ffe15af7b81bc04cb3fb865037f5f3a822",
+    "generated_at": "2026-09-30T17:55:15Z",
+    "timezone": "UTC"
+  },
+  "attribution": {
+    "publisher": "WhenResets",
+    "snapshot_url": "https://whenresets.com/api/v1/archive?snapshot_id=wr-668dc4b04c0ef700a55c3f8693d603ffe15af7b81bc04cb3fb865037f5f3a822",
+    "scope": "Archived public Codex announcement/action records. Imported classifications are not independently verified global resets.",
+    "limitations": [
+      "Historical collection may have gaps; early upstream revisions cannot be reconstructed.",
+      "Announcement timestamps are source-reported, not proven effective reset times.",
+      "Multiple actions can share one announcement; mixed legacy intervals are not a global reset cadence.",
+      "Transport success does not prove complete coverage. Mirror timeline windows may differ.",
+      "Short source excerpts are provided for attribution and review, not relicensed."
+    ]
+  },
+  "license": {
+    "id": "LicenseRef-WhenResets-Metadata-Attribution",
+    "metadata_terms": "WhenResets-authored metadata, classifications and corrections may be reused with attribution to WhenResets, the snapshot URL and schema version.",
+    "required_attribution": [
+      "WhenResets",
+      "snapshot URL",
+      "schema version"
+    ],
+    "excluded": "Original announcements, posts and quoted excerpts remain copyrighted by their respective authors. This permission does not license third-party text; follow the original sources' terms."
+  },
+  "coverage": {
+    "state": "partial",
+    "checked_at": null,
+    "required_scopes": [
+      "codex-public-reset-announcements"
+    ],
+    "missing_scopes": [
+      "codex-public-reset-announcements"
+    ],
+    "sources": [
+      {
+        "id": "aihot",
+        "url": "https://aihot.news/api/v1/codex-resets",
+        "scope": "codex-public-reset-announcements",
+        "role": "current_secondary",
+        "transport_ok": false,
+        "content_state": "unknown",
+        "checked_at": "2026-09-30T17:51:00Z",
+        "coverage_from": null,
+        "coverage_through": null,
+        "complete": false,
+        "evidence_url": "",
+        "replacement_for": "",
+        "attestation_id": null
+      },
+      {
+        "id": "chongzhila",
+        "url": "https://chongzhila.com/api/public/status",
+        "scope": "codex-public-reset-announcements",
+        "role": "current_secondary",
+        "transport_ok": true,
+        "content_state": "unknown",
+        "checked_at": "2026-09-30T17:55:02Z",
+        "coverage_from": null,
+        "coverage_through": null,
+        "complete": false,
+        "evidence_url": "",
+        "replacement_for": "",
+        "attestation_id": null
+      },
+      {
+        "id": "codex-reset",
+        "url": "https://codex-reset.com/api/timeline",
+        "scope": "codex-public-reset-announcements",
+        "role": "current_secondary",
+        "transport_ok": true,
+        "content_state": "unknown",
+        "checked_at": "2026-09-30T17:55:03Z",
+        "coverage_from": null,
+        "coverage_through": null,
+        "complete": false,
+        "evidence_url": "",
+        "replacement_for": "",
+        "attestation_id": null
+      },
+      {
+        "id": "codex-resets",
+        "url": "https://codex-resets.com/api/v1/resets",
+        "scope": "codex-public-reset-announcements",
+        "role": "current_secondary",
+        "transport_ok": true,
+        "content_state": "unknown",
+        "checked_at": "2026-09-30T17:55:02Z",
+        "coverage_from": null,
+        "coverage_through": null,
+        "complete": false,
+        "evidence_url": "",
+        "replacement_for": "",
+        "attestation_id": null
+      },
+      {
+        "id": "tibo-rss",
+        "url": "https://rsshub.stsecurity.moe/twitter/user/thsottiaux",
+        "scope": "codex-public-reset-announcements",
+        "role": "current_primary",
+        "transport_ok": true,
+        "content_state": "older",
+        "checked_at": "2026-09-30T17:55:09Z",
+        "coverage_from": null,
+        "coverage_through": null,
+        "complete": false,
+        "evidence_url": "",
+        "replacement_for": "",
+        "attestation_id": null
+      },
+      {
+        "id": "tibo-timeline",
+        "url": "https://fxtwitter.com/thsottiaux/feed.xml",
+        "scope": "codex-public-reset-announcements",
+        "role": "current_primary",
+        "transport_ok": true,
+        "content_state": "partial",
+        "checked_at": "2026-09-30T17:55:02Z",
+        "coverage_from": null,
+        "coverage_through": null,
+        "complete": false,
+        "evidence_url": "",
+        "replacement_for": "",
+        "attestation_id": null
+      },
+      {
+        "id": "whenreset",
+        "url": "https://whenreset.dev/api/resets",
+        "scope": "codex-public-reset-announcements",
+        "role": "current_secondary",
+        "transport_ok": true,
+        "content_state": "unknown",
+        "checked_at": "2026-09-30T17:55:02Z",
+        "coverage_from": null,
+        "coverage_through": null,
+        "complete": false,
+        "evidence_url": "",
+        "replacement_for": "",
+        "attestation_id": null
+      }
+    ]
+  }
+}
